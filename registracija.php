@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     if (isset($_POST['username']) && isset($_POST['password'])) {
         $username = $_POST['username'];
         $password = $_POST['password'];
@@ -29,6 +31,8 @@
                 mysqli_stmt_bind_param($stmt, 'ss', $username, $hash);
                 mysqli_stmt_execute($stmt);
                 echo "Registracija je uspješna!";
+
+                $_SESSION['username'] = $username;
             }
         }
         mysqli_close($dbc);
