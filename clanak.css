@@ -1,0 +1,53 @@
+.bck{
+    background-color: #7F96FF;
+}
+
+.navbck{
+    background-color: #7F96FF;
+}
+
+#link-home:link,
+#link-home:visited,
+#link-proizvodi:link,
+#link-proizvodi:visited,
+#link-login:link,
+#link-login:visited {
+    font-size: 17px;
+    background-color: #7F96FF;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 15px;
+    transition: .4s;
+}
+
+#link-home:hover,
+#link-home:active,
+#link-proizvodi:hover,
+#link-proizvodi:active,
+#link-login:hover,
+#link-login:active {
+    font-size: 17px;
+    background-color: #99abfc;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-scroll{
+    background-color: #7F96FF;
+}
+
+#foot{
+    padding: 30px;
+}
+
+.ispod{
+    background-color: #19191a !important;
+}
+
+.sastrane{
+    margin-left: 50px;
+}
+
+.clanak{
+    margin-top: 60px;
+}

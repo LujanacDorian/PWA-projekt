@@ -1,0 +1,77 @@
+.bck{
+    background-color: #7F96FF;
+}
+
+.navbck{
+    background-color: #7F96FF;
+}
+
+#link-home:link,
+#link-home:visited{
+    font-size: 17px;
+    background-color: #7F96FF;
+    text-decoration: underline;
+    text-decoration-color: #5F19EA;
+    text-decoration-thickness: 3px;
+    margin-left: 20px;
+    padding: 15px;
+    transition: .4s;
+}
+
+#link-home:hover,
+#link-home:active{
+    font-size: 17px;
+    background-color: #99abfc;
+    text-decoration: underline;
+    text-decoration-color: #5776fd;
+    text-decoration-thickness: 4px;
+    padding: 15px;
+}
+
+#link-proizvodi:link,
+#link-proizvodi:visited,
+#link-login:link,
+#link-login:visited {
+    font-size: 17px;
+    background-color: #7F96FF;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 15px;
+    transition: .4s;
+}
+
+#link-proizvodi:hover,
+#link-proizvodi:active,
+#link-login:hover,
+#link-login:active {
+    font-size: 17px;
+    background-color: #99abfc;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-scroll{
+    background-color: #7F96FF;
+}
+
+#foot{
+    padding: 30px;
+}
+
+.clanak{
+    font-size: 14px;
+    margin-left: 20px;
+
+}
+
+.ispod{
+    background-color: #19191a !important;
+}
+
+#promocija:link,
+#promocija:visited,
+#promocija:hover,
+#promocija:active{
+    text-decoration: none;
+    color: black;
+}
